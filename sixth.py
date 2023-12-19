@@ -150,5 +150,6 @@ def get_user_fname():
 
 if __name__ == '__main__':
     os.environ["OPENAI_API_KEY"] = "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"
+    db.create_all()  # Create tables if they don't exist
     get_index()
     app.run(debug=True, port=5000)
