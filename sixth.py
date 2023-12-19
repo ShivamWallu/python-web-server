@@ -11,7 +11,6 @@
 
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy   #pip install Flask-SQLAlchemy
-# import mysql.connector #pip install mysql-connector-    
 from llama_index import SimpleDirectoryReader, GPTSimpleVectorIndex, LLMPredictor, PromptHelper, ServiceContext
 from langchain import OpenAI
 import os
