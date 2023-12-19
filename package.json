@@ -1,0 +1,11 @@
+{
+  "name": "urawarrior",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.py",
+  "scripts": {
+    "test": "python sixth.py"
+  },
+  "author": "",
+  "license": "ISC"
+}
